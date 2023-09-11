@@ -11,9 +11,11 @@ navbar:
     - icon: fa-home
       href: index.html
     - text: "About"
-      menu:
-      - text: "People"
-        href: people.html
+      href: about.html
+    - text: "People"
+      href: people.html
+    - text: "Activities"
+      href: activities.html
         
         # here, other .Rmds can be added
 

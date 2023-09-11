@@ -12,7 +12,7 @@
 <meta name="author" content="Bas Hofstra" />
 
 
-<title>Netherlands Center for Computational Sociology</title>
+<title>About</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,6 +30,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
 <script src="site_libs/navigation-1.1/sourceembed.js"></script>
@@ -240,6 +243,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -247,6 +313,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -305,8 +381,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Netherlands Center for Computational
-Sociology</h1>
+<h1 class="title toc-ignore">About</h1>
 <h4 class="author">Bas Hofstra</h4>
 
 </div>
@@ -316,32 +391,55 @@ Sociology</h1>
   addClassKlippyTo("pre.r, pre.markdown");
   addKlippy('right', 'top', 'auto', '1', 'Copy code', 'Copied!');
 </script>
+<p>Last compiled on September, 2023</p>
+<p><br></p>
 <hr />
 <div id="netherlands-center-for-computational-sociology-nc2s"
-class="section level1">
-<h1>Netherlands Center for Computational Sociology (NC2S)</h1>
-<p>Last compiled on September, 2023</p>
-<p>Welcome to the Netherlands Center for Computational Sociology! We are
-a group of sociologists based at Dutch universities applying
-computational social science methods, (really) very broadly construed,
-to the study of inequality, culture, and social relationships.</p>
-<p>NC2S’s goal is to promote computational sociology nationally and
-internationally – as we believe the approach is a powerful analytical
-tool to ask answer novel sociological questions. To this end, we
-organize seminars to talk about and give feedback on one anothers’
-research papers, provide support to NC2S members in their research,
-exchange ideas and research practices in an open, team science way, and
-are constantly developing new ways to employ new methods and/or data at
-the forefront of (computational) sociological research.</p>
-<p>On this website you’ll find who we are, what we do, and some examples
-of our research and code vignettes.</p>
-<p><br></p>
+class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> Netherlands Center
+for Computational Sociology (NC2S)</h2>
+<p>NC2S is a group of sociologists based at Dutch universities that
+study inequality, culture, and social relationships through a
+computational sociology approach.</p>
+</div>
+<div id="computational-sociology" class="section level2" number="0.2">
+<h2><span class="header-section-number">0.2</span> Computational
+Sociology?</h2>
+<p>What is computational sociology? We define it as problem-driven,
+empirical sociology, but with the empirical part specifically containing
+some form of non-survey quantitative data source and/or some new
+methodological technique. Do you see yourself in this definition?
+Welcome! You are now a computational sociologist, and are more than
+welcome to join the NC2S!</p>
+</div>
+<div id="an-inclusive-definition" class="section level2" number="0.3">
+<h2><span class="header-section-number">0.3</span> An Inclusive
+Definition</h2>
+<p>Computational sociologists are oftentimes interested in <a
+href="https://jochemtolsma.github.io/SNA-4-Social-Scientists/webintro.html">digital
+footprints</a> concerning some social process related to inequality,
+culture, or social relationships. As digital footprints are very often
+related to social network processes (e.g., befriending on Facebook,
+messaging on Instagram, etc.), a lot of computational sociology
+oftentimes includes some form of social network analysis. Others claim
+Agent-Based Modelling to be part of computational sociology too, others
+not. Again others claim performing RSiena analyses is part of
+computational sociology, others not.</p>
+<p>Note that we think that this definition-issue is somewhat of a
+useless moving target. Computational sociology’s definition will be
+different next week depending on who you ask. We use a pragmatic and
+inclusive definition so as to draw in sociologists identifying with our
+defintion. This means that you are a computational sociologists if you
+use new data sources and/or use relatively new methodological techniques
+in your research.</p>
 <hr />
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiTmV0aGVybGFuZHMgQ2VudGVyIGZvciBDb21wdXRhdGlvbmFsIFNvY2lvbG9neSIKb3V0cHV0OgogIGh0bWxfZG9jdW1lbnQ6CiAgICB0b2M6IGZhbHNlCiAgICBudW1iZXJfc2VjdGlvbnM6IGZhbHNlCmF1dGhvcjogIkJhcyBIb2ZzdHJhIgpiaWJsaW9ncmFwaHk6IHJlZmVyZW5jZXMuYmliCgotLS0KCmBgYHtyLCBpbnN0YWxsIHJlbW90ZWx5LCBnbG9iYWxzZXR0aW5ncywgZWNobz1GQUxTRSwgd2FybmluZz1GQUxTRSwgcmVzdWx0cz0naGlkZSd9CiMgaW5zdGFsbC5wYWNrYWdlcygicmVtb3RlcyIpCiNyZW1vdGVzOjppbnN0YWxsX2dpdGh1Yigicmxlc3VyL2tsaXBweSIpCmBgYCAKCmBgYHtyLCBnbG9iYWxzZXR0aW5ncywgZWNobz1GQUxTRSwgd2FybmluZz1GQUxTRSwgcmVzdWx0cz0naGlkZSd9CmxpYnJhcnkoa25pdHIpCgprbml0cjo6b3B0c19jaHVuayRzZXQoZWNobyA9IFRSVUUpCm9wdHNfY2h1bmskc2V0KHRpZHkub3B0cz1saXN0KHdpZHRoLmN1dG9mZj0xMDApLHRpZHk9VFJVRSwgd2FybmluZyA9IEZBTFNFLCBtZXNzYWdlID0gRkFMU0UsY29tbWVudCA9ICIjPiIsIGNhY2hlPVRSVUUsIGNsYXNzLnNvdXJjZT1jKCJ0ZXN0IiksIGNsYXNzLm91dHB1dD1jKCJ0ZXN0MiIpKQpvcHRpb25zKHdpZHRoID0gMTAwKQpyZ2w6OnNldHVwS25pdHIoKQoKCgpjb2xvcml6ZSA8LSBmdW5jdGlvbih4LCBjb2xvcikge3NwcmludGYoIjxzcGFuIHN0eWxlPSdjb2xvcjogJXM7Jz4lczwvc3Bhbj4iLCBjb2xvciwgeCkgfQoKYGBgCgpgYGB7ciBrbGlwcHksIGVjaG89RkFMU0UsIGluY2x1ZGU9VFJVRX0Ka2xpcHB5OjprbGlwcHkocG9zaXRpb24gPSBjKCd0b3AnLCAncmlnaHQnKSkKI2tsaXBweTo6a2xpcHB5KGNvbG9yID0gJ2RhcmtyZWQnKQoja2xpcHB5OjprbGlwcHkodG9vbHRpcF9tZXNzYWdlID0gJ0NsaWNrIHRvIGNvcHknLCB0b29sdGlwX3N1Y2Nlc3MgPSAnRG9uZScpCmBgYAoKLS0tLQoKIyBOZXRoZXJsYW5kcyBDZW50ZXIgZm9yIENvbXB1dGF0aW9uYWwgU29jaW9sb2d5IChOQzJTKQpMYXN0IGNvbXBpbGVkIG9uIGByIGZvcm1hdChTeXMudGltZSgpLCAnJUIsICVZJylgICAKCldlbGNvbWUgdG8gdGhlIE5ldGhlcmxhbmRzIENlbnRlciBmb3IgQ29tcHV0YXRpb25hbCBTb2Npb2xvZ3khIFdlIGFyZSBhIGdyb3VwIG9mIHNvY2lvbG9naXN0cyBiYXNlZCBhdCBEdXRjaCB1bml2ZXJzaXRpZXMgYXBwbHlpbmcgY29tcHV0YXRpb25hbCBzb2NpYWwgc2NpZW5jZSBtZXRob2RzLCAocmVhbGx5KSB2ZXJ5IGJyb2FkbHkgY29uc3RydWVkLCB0byB0aGUgc3R1ZHkgb2YgaW5lcXVhbGl0eSwgY3VsdHVyZSwgYW5kIHNvY2lhbCByZWxhdGlvbnNoaXBzLiAKCk5DMlMncyBnb2FsIGlzIHRvIHByb21vdGUgY29tcHV0YXRpb25hbCBzb2Npb2xvZ3kgbmF0aW9uYWxseSBhbmQgaW50ZXJuYXRpb25hbGx5IC0tIGFzIHdlIGJlbGlldmUgdGhlIGFwcHJvYWNoIGlzIGEgcG93ZXJmdWwgYW5hbHl0aWNhbCB0b29sIHRvIGFzayBhbnN3ZXIgbm92ZWwgc29jaW9sb2dpY2FsIHF1ZXN0aW9ucy4gVG8gdGhpcyBlbmQsIHdlIG9yZ2FuaXplIHNlbWluYXJzIHRvIHRhbGsgYWJvdXQgYW5kIGdpdmUgZmVlZGJhY2sgb24gb25lIGFub3RoZXJzJyByZXNlYXJjaCBwYXBlcnMsIHByb3ZpZGUgc3VwcG9ydCB0byBOQzJTIG1lbWJlcnMgaW4gdGhlaXIgcmVzZWFyY2gsIGV4Y2hhbmdlIGlkZWFzIGFuZCByZXNlYXJjaCBwcmFjdGljZXMgaW4gYW4gb3BlbiwgdGVhbSBzY2llbmNlIHdheSwgYW5kIGFyZSBjb25zdGFudGx5IGRldmVsb3BpbmcgbmV3IHdheXMgdG8gZW1wbG95IG5ldyBtZXRob2RzIGFuZC9vciBkYXRhIGF0IHRoZSBmb3JlZnJvbnQgb2YgKGNvbXB1dGF0aW9uYWwpIHNvY2lvbG9naWNhbCByZXNlYXJjaC4KCk9uIHRoaXMgd2Vic2l0ZSB5b3UnbGwgZmluZCB3aG8gd2UgYXJlLCB3aGF0IHdlIGRvLCBhbmQgc29tZSBleGFtcGxlcyBvZiBvdXIgcmVzZWFyY2ggYW5kIGNvZGUgdmlnbmV0dGVzLgoKPGJyPgoKLS0tLQoKCgoKCgoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiQWJvdXQiCiNiaWJsaW9ncmFwaHk6IHJlZmVyZW5jZXMuYmliCmF1dGhvcjogIkJhcyBIb2ZzdHJhIgotLS0KCgoKYGBge3IsIGdsb2JhbHNldHRpbmdzLCBlY2hvPUZBTFNFLCB3YXJuaW5nPUZBTFNFLCByZXN1bHRzPSdoaWRlJ30KbGlicmFyeShrbml0cikKCmtuaXRyOjpvcHRzX2NodW5rJHNldChlY2hvID0gVFJVRSkKb3B0c19jaHVuayRzZXQodGlkeS5vcHRzPWxpc3Qod2lkdGguY3V0b2ZmPTEwMCksdGlkeT1UUlVFLCB3YXJuaW5nID0gRkFMU0UsIG1lc3NhZ2UgPSBGQUxTRSxjb21tZW50ID0gIiM+IiwgY2FjaGU9VFJVRSwgY2xhc3Muc291cmNlPWMoInRlc3QiKSwgY2xhc3Mub3V0cHV0PWMoInRlc3QyIikpCm9wdGlvbnMod2lkdGggPSAxMDApCnJnbDo6c2V0dXBLbml0cigpCgoKCmNvbG9yaXplIDwtIGZ1bmN0aW9uKHgsIGNvbG9yKSB7c3ByaW50ZigiPHNwYW4gc3R5bGU9J2NvbG9yOiAlczsnPiVzPC9zcGFuPiIsIGNvbG9yLCB4KSB9CgpgYGAKCmBgYHtyIGtsaXBweSwgZWNobz1GQUxTRSwgaW5jbHVkZT1UUlVFfQprbGlwcHk6OmtsaXBweShwb3NpdGlvbiA9IGMoJ3RvcCcsICdyaWdodCcpKQoja2xpcHB5OjprbGlwcHkoY29sb3IgPSAnZGFya3JlZCcpCiNrbGlwcHk6OmtsaXBweSh0b29sdGlwX21lc3NhZ2UgPSAnQ2xpY2sgdG8gY29weScsIHRvb2x0aXBfc3VjY2VzcyA9ICdEb25lJykKYGBgCgpMYXN0IGNvbXBpbGVkIG9uIGByIGZvcm1hdChTeXMudGltZSgpLCAnJUIsICVZJylgCgo8YnI+CgotLS0tCgojIyBOZXRoZXJsYW5kcyBDZW50ZXIgZm9yIENvbXB1dGF0aW9uYWwgU29jaW9sb2d5IChOQzJTKQpOQzJTIGlzIGEgZ3JvdXAgb2Ygc29jaW9sb2dpc3RzIGJhc2VkIGF0IER1dGNoIHVuaXZlcnNpdGllcyB0aGF0IHN0dWR5IGluZXF1YWxpdHksIGN1bHR1cmUsIGFuZCBzb2NpYWwgcmVsYXRpb25zaGlwcyB0aHJvdWdoIGEgY29tcHV0YXRpb25hbCBzb2Npb2xvZ3kgYXBwcm9hY2guIAogIAojIyBDb21wdXRhdGlvbmFsIFNvY2lvbG9neT8KV2hhdCBpcyBjb21wdXRhdGlvbmFsIHNvY2lvbG9neT8gV2UgZGVmaW5lIGl0IGFzIHByb2JsZW0tZHJpdmVuLCBlbXBpcmljYWwgc29jaW9sb2d5LCBidXQgd2l0aCB0aGUgZW1waXJpY2FsIHBhcnQgc3BlY2lmaWNhbGx5IGNvbnRhaW5pbmcgc29tZSBmb3JtIG9mIG5vbi1zdXJ2ZXkgcXVhbnRpdGF0aXZlIGRhdGEgc291cmNlIGFuZC9vciBzb21lIG5ldyBtZXRob2RvbG9naWNhbCB0ZWNobmlxdWUuIERvIHlvdSBzZWUgeW91cnNlbGYgaW4gdGhpcyBkZWZpbml0aW9uPyBXZWxjb21lISBZb3UgYXJlIG5vdyBhIGNvbXB1dGF0aW9uYWwgc29jaW9sb2dpc3QsIGFuZCBhcmUgbW9yZSB0aGFuIHdlbGNvbWUgdG8gam9pbiB0aGUgTkMyUyEKCiMjIEFuIEluY2x1c2l2ZSBEZWZpbml0aW9uCkNvbXB1dGF0aW9uYWwgc29jaW9sb2dpc3RzIGFyZSBvZnRlbnRpbWVzIGludGVyZXN0ZWQgaW4gW2RpZ2l0YWwgZm9vdHByaW50c10oaHR0cHM6Ly9qb2NoZW10b2xzbWEuZ2l0aHViLmlvL1NOQS00LVNvY2lhbC1TY2llbnRpc3RzL3dlYmludHJvLmh0bWwpIGNvbmNlcm5pbmcgc29tZSBzb2NpYWwgcHJvY2VzcyByZWxhdGVkIHRvIGluZXF1YWxpdHksIGN1bHR1cmUsIG9yIHNvY2lhbCByZWxhdGlvbnNoaXBzLiBBcyBkaWdpdGFsIGZvb3RwcmludHMgYXJlIHZlcnkgb2Z0ZW4gcmVsYXRlZCB0byBzb2NpYWwgbmV0d29yayBwcm9jZXNzZXMgKGUuZy4sIGJlZnJpZW5kaW5nIG9uIEZhY2Vib29rLCBtZXNzYWdpbmcgb24gSW5zdGFncmFtLCBldGMuKSwgYSBsb3Qgb2YgY29tcHV0YXRpb25hbCBzb2Npb2xvZ3kgb2Z0ZW50aW1lcyBpbmNsdWRlcyBzb21lIGZvcm0gb2Ygc29jaWFsIG5ldHdvcmsgYW5hbHlzaXMuIE90aGVycyBjbGFpbSBBZ2VudC1CYXNlZCBNb2RlbGxpbmcgdG8gYmUgcGFydCBvZiBjb21wdXRhdGlvbmFsIHNvY2lvbG9neSB0b28sIG90aGVycyBub3QuIEFnYWluIG90aGVycyBjbGFpbSBwZXJmb3JtaW5nIFJTaWVuYSBhbmFseXNlcyBpcyBwYXJ0IG9mIGNvbXB1dGF0aW9uYWwgc29jaW9sb2d5LCBvdGhlcnMgbm90LiAKCk5vdGUgdGhhdCB3ZSB0aGluayB0aGF0IHRoaXMgZGVmaW5pdGlvbi1pc3N1ZSBpcyBzb21ld2hhdCBvZiBhIHVzZWxlc3MgbW92aW5nIHRhcmdldC4gQ29tcHV0YXRpb25hbCBzb2Npb2xvZ3nigJlzIGRlZmluaXRpb24gd2lsbCBiZSBkaWZmZXJlbnQgbmV4dCB3ZWVrIGRlcGVuZGluZyBvbiB3aG8geW91IGFzay4gV2UgdXNlIGEgcHJhZ21hdGljIGFuZCBpbmNsdXNpdmUgZGVmaW5pdGlvbiBzbyBhcyB0byBkcmF3IGluIHNvY2lvbG9naXN0cyBpZGVudGlmeWluZyB3aXRoIG91ciBkZWZpbnRpb24uIFRoaXMgbWVhbnMgdGhhdCB5b3UgYXJlIGEgY29tcHV0YXRpb25hbCBzb2Npb2xvZ2lzdHMgaWYgeW91IHVzZSBuZXcgZGF0YSBzb3VyY2VzIGFuZC9vciB1c2UgcmVsYXRpdmVseSBuZXcgbWV0aG9kb2xvZ2ljYWwgdGVjaG5pcXVlcyBpbiB5b3VyIHJlc2VhcmNoLgoKLS0tLQoKCgoK</div>
 
 
+</div>
+</div>
 
 </div>
 
@@ -375,11 +473,40 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("index.Rmd");
+  window.initializeSourceEmbed("about.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

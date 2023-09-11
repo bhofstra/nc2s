@@ -1,0 +1,50 @@
+---
+title: "About"
+#bibliography: references.bib
+author: "Bas Hofstra"
+---
+
+
+
+```{r, globalsettings, echo=FALSE, warning=FALSE, results='hide'}
+library(knitr)
+
+knitr::opts_chunk$set(echo = TRUE)
+opts_chunk$set(tidy.opts=list(width.cutoff=100),tidy=TRUE, warning = FALSE, message = FALSE,comment = "#>", cache=TRUE, class.source=c("test"), class.output=c("test2"))
+options(width = 100)
+rgl::setupKnitr()
+
+
+
+colorize <- function(x, color) {sprintf("<span style='color: %s;'>%s</span>", color, x) }
+
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy(position = c('top', 'right'))
+#klippy::klippy(color = 'darkred')
+#klippy::klippy(tooltip_message = 'Click to copy', tooltip_success = 'Done')
+```
+
+Last compiled on `r format(Sys.time(), '%B, %Y')`
+
+<br>
+
+----
+
+## Netherlands Center for Computational Sociology (NC2S)
+NC2S is a group of sociologists based at Dutch universities that study inequality, culture, and social relationships through a computational sociology approach. 
+  
+## Computational Sociology?
+What is computational sociology? We define it as problem-driven, empirical sociology, but with the empirical part specifically containing some form of non-survey quantitative data source and/or some new methodological technique. Do you see yourself in this definition? Welcome! You are now a computational sociologist, and are more than welcome to join the NC2S!
+
+## An Inclusive Definition
+Computational sociologists are oftentimes interested in [digital footprints](https://jochemtolsma.github.io/SNA-4-Social-Scientists/webintro.html) concerning some social process related to inequality, culture, or social relationships. As digital footprints are very often related to social network processes (e.g., befriending on Facebook, messaging on Instagram, etc.), a lot of computational sociology oftentimes includes some form of social network analysis. Others claim Agent-Based Modelling to be part of computational sociology too, others not. Again others claim performing RSiena analyses is part of computational sociology, others not. 
+
+Note that we think that this definition-issue is somewhat of a useless moving target. Computational sociology’s definition will be different next week depending on who you ask. We use a pragmatic and inclusive definition so as to draw in sociologists identifying with our defintion. This means that you are a computational sociologists if you use new data sources and/or use relatively new methodological techniques in your research.
+
+----
+
+
+
+

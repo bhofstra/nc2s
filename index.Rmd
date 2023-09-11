@@ -9,7 +9,6 @@ bibliography: references.bib
 
 ---
 
-
 ```{r, install remotely, globalsettings, echo=FALSE, warning=FALSE, results='hide'}
 # install.packages("remotes")
 #remotes::install_github("rlesur/klippy")
@@ -35,19 +34,20 @@ klippy::klippy(position = c('top', 'right'))
 #klippy::klippy(tooltip_message = 'Click to copy', tooltip_success = 'Done')
 ```
 
-
-
-
 ----
 
-# Netherlands Center for Computational Sociology
+# Netherlands Center for Computational Sociology (NC2S)
 Last compiled on `r format(Sys.time(), '%B, %Y')`  
 
+Welcome to the Netherlands Center for Computational Sociology! We are a group of sociologists based at Dutch universities applying computational social science methods, (really) very broadly construed, to the study of inequality, culture, and social relationships. 
+
+NC2S's goal is to promote computational sociology nationally and internationally -- as we believe the approach is a powerful analytical tool to ask answer novel sociological questions. To this end, we organize seminars to talk about and give feedback on one anothers' research papers, provide support to NC2S members in their research, exchange ideas and research practices in an open, team science way, and are constantly developing new ways to employ new methods and/or data at the forefront of (computational) sociological research.
+
+On this website you'll find who we are, what we do, and some examples of our research and code vignettes.
 
 <br>
 
 ----
-
 
 
 
