@@ -1,0 +1,33 @@
+name: "Netherlands Center for Computational Sociology"
+author: 
+  - 'Bas Hofstra'
+output_dir: "docs"
+exclude: 
+  - "data"
+  - "_test"
+bibliography: references.bib
+navbar:
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "About"
+      menu:
+      - text: "People"
+        href: people.html
+        
+        # here, other .Rmds can be added
+
+
+  right:
+  - icon: fab fa-github
+    href: https://github.com/bhofstra/nc2s
+output:
+  html_document:
+    theme: flatly
+    highlight: default
+    toc:  true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: yes
+    css: tweaks.css
