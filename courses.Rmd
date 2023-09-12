@@ -34,13 +34,15 @@ Last compiled on `r format(Sys.time(), '%B, %Y')`
 
 # Courses in Computational Sociology at Dutch universities
 
+Here, we provide a (non-exhaustive) list of courses at Dutch universities in computational sociology or that may help with a computational approach to sociological research. 
+
 <br>
 
 ----
 
 ## Radboud University
 
-- Social Network Analyses for Social Scientists
+- Social Network Analyses for Social Scientists (ResMa)
 
 <br>
 

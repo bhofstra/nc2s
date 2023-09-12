@@ -49,15 +49,12 @@ What is computational sociology? We define it as problem-driven, empirical socio
 # An Inclusive Definition
 Computational sociologists are oftentimes interested in [digital footprints](https://jochemtolsma.github.io/SNA-4-Social-Scientists/webintro.html) concerning some social process related to inequality, culture, or social relationships. As digital footprints are very often related to social network processes (e.g., befriending on Facebook, messaging on Instagram, etc.), a lot of computational sociology oftentimes includes some form of social network analysis. Others claim Agent-Based Modelling to be part of computational sociology too, others not. Again others claim performing RSiena analyses is part of computational sociology, others not. 
 
-<br>
-
-----
-
 Note that we think that this definition-issue is somewhat of a useless moving target. Computational sociology’s definition will be different next week depending on who you ask. We use a pragmatic and inclusive definition so as to draw in sociologists identifying with our defintion. This means that you are a computational sociologists if you use new data sources and/or use relatively new methodological techniques in your research.
 
 <br>
 
 ----
+
 
 
 
