@@ -1,5 +1,5 @@
 ---
-title: "Activities"
+title: "Courses"
 #bibliography: references.bib
 author: ""
 ---
@@ -32,4 +32,22 @@ Last compiled on `r format(Sys.time(), '%B, %Y')`
 
 ----
 
-# Activities
+# Courses in Computational Sociology at Dutch universities
+
+<br>
+
+----
+
+## Radboud University
+
+- Social Network Analyses for Social Scientists
+
+<br>
+
+----
+
+## Utrecht University
+
+<br>
+
+----

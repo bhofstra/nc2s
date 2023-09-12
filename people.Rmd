@@ -1,7 +1,7 @@
 ---
 title: "People"
 #bibliography: references.bib
-author: "Bas Hofstra"
+author: ""
 ---
 
 
@@ -36,14 +36,32 @@ Last compiled on `r format(Sys.time(), '%B, %Y')`
 
 We are a relatively new center, yet we bundle decades of experience in the computational sociology approach and in publishing in sociological and interdisciplinary outlets about computational sociology.
 
+<br>
+
+----
+
 ## Bas Hofstra
 Bas Hofstra is a tenured Assistant Professor at Radboud University's Department of Sociology. He got his PhD from Utrecht University's Department of Sociology and was Postdoctoral Research Fellow at Stanford University.
 
-His work orbits the study of diversity, stratification, and innovation. It captures longitudinal systems of social and cultural exchange: from the gestation and birth of networks, careers, ideas, or innovations, to their use, up until their eventual cessation. As such, I strive for three interrelated goals: (i) answering substantive questions on causes and effects of social networks, while (ii) contributing to social theory, and (iii) using computational methods and big data. His research appeared (among others) in PNAS, American Sociological Review, Social Forces, Social Networks, and Nature Human Behaviour, and was honored with several grants and awards.
+His work orbits the study of diversity, stratification, and innovation. It captures longitudinal systems of social and cultural exchange: from the gestation and birth of networks, careers, ideas, or innovations, to their use, up until their eventual cessation. As such, he strives for three interrelated goals: (i) answering substantive questions on causes and effects of social networks, while (ii) contributing to social theory, and (iii) using computational methods and big data. His research appeared (among others) in PNAS, American Sociological Review, Social Forces, Social Networks, and Nature Human Behaviour, and was honored with several grants and awards.
 
-
+<br>
 
 ----
+
+## Jochem Tolsma
+
+<br>
+
+----
+
+## Rense Corten
+
+<br>
+
+----
+
+
 
 
 

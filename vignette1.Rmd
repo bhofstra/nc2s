@@ -1,5 +1,5 @@
 ---
-title: "Activities"
+title: "Vignette 1"
 #bibliography: references.bib
 author: ""
 ---
@@ -32,4 +32,4 @@ Last compiled on `r format(Sys.time(), '%B, %Y')`
 
 ----
 
-# Activities
+# Vignette

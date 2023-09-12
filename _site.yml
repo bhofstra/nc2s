@@ -16,6 +16,12 @@ navbar:
       href: people.html
     - text: "Activities"
       href: activities.html
+    - text: "Vignettes"
+      menu:
+      - text: "Vignette 1"
+        href: vignette1.html
+    - text: "Courses"
+      href: courses.html
         
         # here, other .Rmds can be added
 

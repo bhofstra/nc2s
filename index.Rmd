@@ -4,7 +4,7 @@ output:
   html_document:
     toc: false
     number_sections: false
-author: "Bas Hofstra"
+author: ""
 bibliography: references.bib
 
 ---
@@ -34,6 +34,8 @@ klippy::klippy(position = c('top', 'right'))
 #klippy::klippy(tooltip_message = 'Click to copy', tooltip_success = 'Done')
 ```
 
+<br>
+
 ----
 
 # Netherlands Center for Computational Sociology (NC2S)
@@ -43,7 +45,7 @@ Welcome to the Netherlands Center for Computational Sociology! We are a group of
 
 NC2S's goal is to promote computational sociology nationally and internationally -- as we believe the approach is a powerful analytical tool to ask answer novel sociological questions. To this end, we organize seminars to talk about and give feedback on one anothers' research papers, provide support to NC2S members in their research, exchange ideas and research practices in an open, team science way, and are constantly developing new ways to employ new methods and/or data at the forefront of (computational) sociological research.
 
-On this website you'll find who we are, what we do, and some examples of our research and code vignettes.
+On this website you'll find who we are, what we do, and some examples of our research, code vignettes, and an overview of (what we consider) courses in computational sociology at Dutch universities.
 
 <br>
 
